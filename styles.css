@@ -1,0 +1,88 @@
+body{
+  background-color:rgb(236, 223, 223);
+}
+ table,th, td {
+    padding: 30px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+nav>ul{
+ 
+  text-align: right;
+}
+ul>li{
+   display: inline-block;
+  text-transform: uppercase;
+  padding: 1%;
+  text-decoration: none;
+}
+nav> ul > li> a{
+  text-decoration:none;
+}
+ul{
+   text-decoration: none;
+  background-color:#787696;
+}
+
+img{
+  border-radius: 50px;
+  box-shadow: 3px 5px #787696;
+}
+p{
+  font-weight: normal;
+  padding:2px;
+  color:black;
+  font-style:italic;
+ font-size:20px;
+ flex-direction: row-reverse;
+}
+h1{
+  color: green;
+  font-style:italic;
+  text-align: center;
+  padding: 5px;
+  font-family:Arial,Helvetica,Sans-Serif;
+
+}
+h2{
+  color: green;
+  font-style:italic;
+  text-align: center;
+  padding: 10px;
+}
+h3{
+  color: green;
+  text-align: center;
+  padding: 10px;
+  font-size:25px;
+}
+footer:hover{
+  background-color:#787696;
+  position: absolute;
+   align-items: center;
+   
+}
+h4{
+  color: green;
+  font-style:italic;
+  padding: 30px;
+  font-size:20px;
+}
+th{
+  color:rgb(102, 102, 0);
+  font-family: Helvetica;
+}
+.winner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  flex-wrap: wrap;
+}
